@@ -18,7 +18,7 @@ interface SidebarProps {
 const menuItems = [
   { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
   { id: 'crowd', label: 'Crowd Analysis', icon: BarChart3 },
-  { id: 'missing', label: 'Missing Person', icon: Search },
+  { id: 'missing', label: 'findind Person', icon: Search },
   { id: 'offender', label: 'Offender Monitoring', icon: Shield },
   { id: 'disabled', label: 'Disabled Assistance', icon: Accessibility },
   { id: 'emergency', label: 'Emergency', icon: AlertTriangle },
@@ -30,7 +30,7 @@ export default function Sidebar({ activeItem, onItemClick }: SidebarProps) {
   return (
     <div className="fixed left-0 top-0 h-full w-64 bg-white shadow-lg z-40">
       <div className="p-6 border-b border-gray-200">
-        <h1 className="text-xl font-bold text-gray-800">Temple Dashboard</h1>
+        <h1 className="text-xl font-bold text-orange-800">SHREE</h1>
         <p className="text-sm text-gray-600 mt-1">Management System</p>
       </div>
       
